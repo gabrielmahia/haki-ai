@@ -9,4 +9,4 @@ Constitutional rights, disability services, and free legal aid — in Swahili.
 - ✊ Police accountability guidance (IPOA)
 ## Data: Constitution of Kenya 2010 | KNCHR | NCPWD | LSK
 ---
-*gabrielmahia.ai | CC BY-NC-ND 4.0*
+*gabrielmahia.github.io | MIT License*
