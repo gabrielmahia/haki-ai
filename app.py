@@ -33,7 +33,7 @@ def ask(q):
             return html.escape(json.loads(r.read())["candidates"][0]["content"]["parts"][0]["text"])
     except Exception as e: return html.escape(f"❌ {e}")
 
-st.markdown('<div class="emergency">🆘 DHARURA: Dharura: 999 / 112 | IPOA (malalamiko dhidi ya polisi): 1559 | KNCHR: 0800 720 627 (SMS 22359) | LSK: 0800 720 434</div>', unsafe_allow_html=True)
+st.markdown('<div class="emergency">🆘 DHARURA: Dharura: 999 / 112 | IPOA (malalamiko dhidi ya polisi): 1559 | KNCHR: 0800 720 627 | LSK: 0800 720 434</div>', unsafe_allow_html=True)
 
 st.markdown("# ✊ Haki AI")
 st.markdown("**Haki za Binadamu na Ulemavu — Katiba ya Kenya**")
@@ -71,7 +71,7 @@ with tab2:
 with tab3:
     st.markdown("### Msaada wa Kisheria Bure Kenya")
     orgs = [
-        ("KNCHR","Kenya National Commission on Human Rights","0800 720 627 (bure) · SMS 22359","knchr.org"),
+        ("KNCHR","Kenya National Commission on Human Rights","0800 720 627 (bure)","knchr.org"),
         ("LSK Legal Aid","Law Society of Kenya","0800 720 434 (bure)","lsk.or.ke"),
         ("FIDA Kenya","Msaada wa wanawake","0800 720 501 (bure)","fidakenya.org"),
         ("Childline Kenya","Haki na usalama wa watoto","116 (bure, saa 24)","piga 116"),
@@ -82,4 +82,4 @@ with tab3:
         st.markdown(f'<div class="haki-card"><b>{name}</b> — {desc}<br>📞 {phone} | 🌐 {web}</div>', unsafe_allow_html=True)
 
 st.markdown("---")
-st.caption("✊ Haki AI v1.0 | KNCHR: knchr.org | Si ushauri wa kisheria rasmi | CC BY-NC-ND 4.0")
+st.caption("✊ Haki AI v1.0 | KNCHR: knchr.org | Si ushauri wa kisheria rasmi | MIT")
