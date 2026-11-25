@@ -33,7 +33,7 @@ def ask(q):
             return html.escape(json.loads(r.read())["candidates"][0]["content"]["parts"][0]["text"])
     except Exception as e: return html.escape(f"❌ {e}")
 
-st.markdown('<div class="emergency">🆘 DHARURA: Dharura: 999 / 112 | IPOA (malalamiko dhidi ya polisi): 1559 | KNCHR: 0800 720 627 | LSK: 0800 720 434</div>', unsafe_allow_html=True)
+st.markdown('<div class="emergency">🆘 DHARURA: Dharura: 999 / 112 | IPOA (malalamiko dhidi ya polisi): 1559 | KNCHR: 0800 720 627 | Msaada wa kisheria wa Serikali (NLAS): 0800 720 640</div>', unsafe_allow_html=True)
 
 st.markdown("# ✊ Haki AI")
 st.markdown("**Haki za Binadamu na Ulemavu — Katiba ya Kenya**")
@@ -72,8 +72,9 @@ with tab3:
     st.markdown("### Msaada wa Kisheria Bure Kenya")
     orgs = [
         ("KNCHR","Kenya National Commission on Human Rights","0800 720 627 (bure)","knchr.org"),
-        ("LSK Legal Aid","Law Society of Kenya","0800 720 434 (bure)","lsk.or.ke"),
-        ("FIDA Kenya","Msaada wa wanawake","0800 720 501 (bure)","fidakenya.org"),
+        ("NLAS","National Legal Aid Service (Serikali)","0800 720 640 (bure)","statelaw.go.ke"),
+        ("LSK Legal Aid","Law Society of Kenya","Angalia lsk.or.ke","lsk.or.ke"),
+        ("FIDA Kenya","Msaada wa wanawake","Angalia fidakenya.org","fidakenya.org"),
         ("Childline Kenya","Haki na usalama wa watoto","116 (bure, saa 24)","piga 116"),
         ("IPOA","Malalamiko dhidi ya polisi","1559 (bure)","ipoa.go.ke"),
         ("NCPWD","Haki za ulemavu","Angalia ncpwd.go.ke","ncpwd.go.ke"),
